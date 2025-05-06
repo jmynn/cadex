@@ -1,15 +1,13 @@
-/* @import url(''); */
-/** nullstyle подключать в layout.tsx  */
 @import './stylekit.css';
 
 body {
-  font-weight: 400;
   display: flex;
   justify-content: center;
   position: relative;
-  /* font-family: 'Satoshi', sans-serif; */
-  /* font-size: var(--text-medium); */
-  /* background-color: var(--white); */
+  background-color: var(--color-background);
+  font-weight: 400;
+  font-size: var(--fz-text-regular);
+  line-height: var(--line-height);
 }
 #content {
   flex: 1 1 auto;
@@ -17,4 +15,5 @@ body {
   flex-direction: column;
   width: inherit;
 }
+
 

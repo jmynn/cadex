@@ -1,41 +1,18 @@
 :root {
-	/* --color-primary: ; */
-	--color-white: #ffffff;
+	--color-primary: #2c2c2c;
+	--color-background: #ffffff;
 	--color-black: #000000;
+	--color-white: #f5f5f5;
+	--color-border: #d9d9d9;
+	--color-text: #757575;
 
-	/* --line-height: %; */
-	/* --fz-headline-1: px; */
-	/* --fz-headline-2: px; */
-	/* --fz-headline-3: px; */
-	/* --fz-headline-4: px; */
-	/* --fz-headline-5: px; */
-	/* --fz-headline-6: px; */
+	--line-height: 150%;
+	--fz-headline-section: 48px;
+	--fz-headline-3: 24px;
 
-	/* --fz-text-regular: px; */
+	--fz-text-regular: 16px;
 
-	/* --fz-text-large: px; */
-	/* --fz-text-medium: px; */
-	/* --fz-text-small: px; */
+	--container: min(1200px, 99%);
 
-	/* --container: vw; */
-	/* --container-mobile: vw; */
-
-	--transition: all ease-in-out 0.3s;
+	--transition: all .3s ease-in-out;
 }
-
-/*! @font-face for src/fonts/.. */
-
-/* @font-face {
-        font-family: '';
-        src:
-        local(''),
-        url('../fonts/.woff')
-            format('woff'),
-        url('../fonts/.woff2')
-            format('woff2'),
-        url('../fonts/.ttf')
-            format('truetype');
-        font-weight: 400;
-        font-display: swap;
-  } */
-

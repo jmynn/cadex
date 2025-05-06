@@ -1,0 +1,12 @@
+.card {
+  .title {
+    color: var(--color-black);
+    font-size: var(--fz-headline-3);
+    line-height: var(--line-height);
+    font-weight: 600;
+  }
+  .text {
+    line-height: var(--line-height);
+    color: var(--color-text);
+  }
+}
