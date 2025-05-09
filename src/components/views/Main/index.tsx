@@ -1,5 +1,8 @@
+'use client';
 import styles from './index.module.css';
 import { ReactNode } from 'react';
+import Providers from '@/providers';
+import MainFrame from '@/components/ui/MainFrame';
 
 const Main = (): ReactNode => {
   return (
@@ -13,10 +16,9 @@ const Main = (): ReactNode => {
         </p>
       </div>
       <div className={styles.frame}>
-        <iframe
-          src="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-          loading="lazy"
-        />
+        <Providers>
+          <MainFrame />
+        </Providers>
       </div>
     </main>
   );

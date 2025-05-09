@@ -7,7 +7,7 @@ const Header = (): ReactNode => {
   return (
     <header className={styles.header}>
       <Logo />
-      <ButtonLinkContactUs />
+      <ButtonLinkContactUs style={{ padding: '10px 4.43%' }} />
     </header>
   );
 };

@@ -1,11 +1,17 @@
 import NextLink from 'next/link';
 import styles from './index.module.css';
-import { ReactNode } from 'react';
+import { CSSProperties, FunctionComponent, ReactNode } from 'react';
 import { PATHS } from '@/data';
 
-const ButtonLinkContactUs = (): ReactNode => {
+type Props = {
+  style?: CSSProperties;
+};
+
+const ButtonLinkContactUs: FunctionComponent<Props> = ({
+  style
+}): ReactNode => {
   return (
-    <NextLink href={PATHS.CONTACT_US} className={styles.link}>
+    <NextLink href={PATHS.CONTACT_US} className={styles.link} {...{ style }}>
       Contact us
     </NextLink>
   );
