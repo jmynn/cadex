@@ -1,0 +1,23 @@
+.form {
+  background-color: var(--color-background);
+  padding: 24px;
+  border-radius: 21px;
+  border: 1px solid var(--color-border);
+
+  & > * {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  button[type='submit'] {
+    font-weight: 400;
+  }
+}
+.title {
+  font-size: 72px;
+  line-height: var(--line-height);
+  color: var(--color-primary);
+  font-weight: 700;
+  text-align: center;
+  white-space: pre-line;
+}

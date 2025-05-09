@@ -9,9 +9,3 @@
   border-bottom: 1px solid var(--color-border);
   justify-content: center;
 }
-.title {
-  font-size: 72px;
-  line-height: var(--line-height);
-  color: var(--color-primary);
-  font-weight: 700;
-}
