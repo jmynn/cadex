@@ -4,14 +4,6 @@ import Wrapper from '@/components/ui/Wrapper';
 import '@/styles/globals.css';
 import '@/styles/nullstyle.css';
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
-
-export const inter = Inter({
-  weight: ['400'],
-  style: ['normal'],
-  subsets: ['latin'],
-  display: 'swap'
-});
 
 export const metadata: Metadata = {
   title: 'CADEX',
@@ -25,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ru">
-      <body className={inter.className}>
+      <body>
         <Wrapper>
           <Header />
           <div id="content">{children}</div>
